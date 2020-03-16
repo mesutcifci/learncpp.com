@@ -5,8 +5,8 @@ using namespace std;
 int main()
 {
 
-    int a;    // define an integer variable named a
-    int x, y; // define two integer variables named x,y
+    int a;    // declare an integer variable named a
+    int x, y; // declare two integer variables named x,y
 
     int b;
     b = 1;     // copy assignment
