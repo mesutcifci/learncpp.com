@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void giveAndPrintName() {
+void printNameAndAge() {
     cout << "Enter your full name: ";
     string name;
     cin >> name;
@@ -15,7 +15,7 @@ void giveAndPrintName() {
 
 }
 
-void giveAndPrintName_2() {
+void printNameAndAge_2() {
     cout << "Enter your full name: ";
     string name;
     getline(cin,name);
@@ -35,10 +35,10 @@ int main()
     the program shows us 'name = john', 'age = doe'.
     And user is never given a chance to enter an age.
     */
-//  giveAndPrintName();
+//  printNameAndAge();
 
 //  this function works correctly.
-    giveAndPrintName_2();
+    printNameAndAge_2();
 
     return 0;
 }
