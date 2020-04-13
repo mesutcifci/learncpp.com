@@ -50,11 +50,7 @@ void getInteger_3() {
             cin.clear();
             cin.ignore(32767,'\n');
         }
-        else {
-            cin.ignore(32767, '\n');
-            cout << "x = "<< x << "\n" << "y = " << y << "\n";
-            break;
-        }
+
      }
 }
 
@@ -63,7 +59,7 @@ int main()
 
 //  getInteger();
 //  getInteger_2();
-//  getInteger_3();
+  getInteger_3();
 
 
     return 0;

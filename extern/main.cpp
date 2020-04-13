@@ -3,11 +3,11 @@
 using namespace std;
 
 // This will give 'multiple definition' error
-// int number_1;
+ int number_1;
 
 // it's OK. we say that number_1 is defined somewhere
 // and this is forward declaration, not definition
-extern int number_1;
+//extern int number_1;
 
 int number_2; // it's OK. we can't reach the number_2 in a.cpp
 
