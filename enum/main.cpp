@@ -11,7 +11,7 @@ enum Color {
 
 enum Animal{
     ANIMAL_DONKEY = 5,  // assigned 5
-    ANIMAL_CAT,         // assigned 5
+    ANIMAL_CAT,         // assigned 6
     ANIMAL_MONKEY = -4, // assigned -4
     ANIMAL_DOG,         // assigned -3
     ANIMAL_LION = 5,   // shares same value as ANIMAL_DONKEY
