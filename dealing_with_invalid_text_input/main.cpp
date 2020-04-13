@@ -33,7 +33,7 @@ void getInteger_2() {
 }
 
 void getInteger_3() {
-
+// fix me!
     while (true) { // Loop until user enters a valid input
 
         int x;
