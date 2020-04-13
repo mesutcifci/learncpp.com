@@ -45,6 +45,8 @@ int main()
     Company company_2{{"Minik","Male",24},"CatCat"};
     cout << company_2.employee.name << "\n";
 
+    Company company_3{{"xxx","yyy",24}};
+    cout << company_3.company_name << "\n";
 
 
 
