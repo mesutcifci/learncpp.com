@@ -1,4 +1,4 @@
-#include <japan.h>
+#include <iostream>
 
 namespace japan {
     void sayHello() {
