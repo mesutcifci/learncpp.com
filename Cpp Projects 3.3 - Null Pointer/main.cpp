@@ -13,10 +13,10 @@ int main()
 //  cout << *ptr2 << "\n"; //  undefined behavior
 
 
-    if (*ptr2)
-        cout << "ptr2 is pointing to a integer value.";
+    if (ptr2)
+        cout << "ptr2 is pointing to a integer value.\n";
     else
-        cout << "ptr2 is a null pointer.";
+        cout << "ptr2 is a null pointer.\n";
 
     int *ptr3 = nullptr;   // ptr3 is a null pointer
 

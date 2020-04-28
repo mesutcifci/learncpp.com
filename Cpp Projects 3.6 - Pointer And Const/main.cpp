@@ -17,11 +17,13 @@ int main()
     const int *ptr3 = &number2;
     number2 = 21; // it's OK
 //  *ptr3 = 24;   // const value cannot be changed
+    cout<< *ptr3 << "\n"; // 21
 
     int number3 = 30;
     int number4 = 40;
     const int *ptr4 = &number3;
     ptr4 = &number4; // okay, ptr now points at some other const int
+
 
 
     int *const ptr5 = &number3; // ptr5 will always point to number3

@@ -8,10 +8,10 @@
 int main()
 {
 
-    std::vector<int> numbers{1,2,3,4,5}; // length = 5
+    std::vector<int> numbers{1,2,3,4,5}; // length = 5  capacity =5
     std::cout << "length: " << numbers.size() << "  capacity: " << numbers.capacity() << '\n';
 
-    numbers = {1,2,3}; // length = 3
+    numbers = {1,2,3}; // length = 3 capacity =5
     std::cout << "length: " << numbers.size() << "  capacity: " << numbers.capacity() << '\n';
 
     return 0;
