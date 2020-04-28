@@ -6,7 +6,7 @@ void function1() {
    auto multiple =  [](int x){
         return x * 2;
     };
-    cout << "Result = " << multiple << "\n";
+    cout << "Result = " << multiple(10) << "\n";
 }
 void function2() {
 
@@ -17,11 +17,11 @@ void function2() {
         }
     };
 
-    print("Mesut");
+    print("Mesut");  // lambda version 1
     print("Elif");
     print("Kedi");
 
-    print(900);
+    print(900); // lambda version 2
     print(800);
 
     print("Mesut Elif Gırgır Minik");
@@ -36,7 +36,7 @@ void function3() {
 //          return static_cast<double>(x)/y;
             cout << " ";
     };
-    cout << "Result = " << divide << "\n";
+    cout << "Result = " << divide(10,2,true) << "\n";
 }
 void function4() {
    auto divide =  [](int x, int y, bool bInteger) -> double{
@@ -45,7 +45,7 @@ void function4() {
         else
             return static_cast<double>(x)/y;
     };
-    cout << "Result = " << divide << "\n";
+    cout << "Result = " << divide(48,8,false) << "\n";
 }
 void function5() {
     int x = 5;
@@ -100,9 +100,6 @@ void function7() {
 int main()
 {
     []() {}; // defines a lambda with no captures, no parameters, and no return type
-
-
-
 
     return 0;
 }

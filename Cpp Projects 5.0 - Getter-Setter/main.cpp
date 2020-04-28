@@ -14,6 +14,10 @@ public:
 
 int main()
 {
+    MainPage mainPage;
+//  mainPage.m_title = "abc"  // member variable is private we can't reach directly
+    mainPage.setTitle("abc"); // also we can reach by method
+
 
     return 0;
 }
